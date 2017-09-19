@@ -1,0 +1,50 @@
+#container{
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: aqua;
+	height: 650px;
+}
+
+#Header{
+	margin: 10px, 10px, 10px, 10px;
+	height: 100px;
+	width: auto;
+	background-color: yellowgreen;
+}
+
+#Titulo{
+	font-size: 40px;
+	font-family: fantasy;
+	color: aquamarine;
+	display: block;
+	position: relative;
+	padding-top: 20px;
+	width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imagen{
+	height: 150px;
+	background-color: violet;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	position:relative;
+}
+
+.subtitulo
+{
+	font-size: 20px;
+	position: relative;
+	height: 40px;
+	top:110px;
+	color:#fff;
+	background-color:#000;
+	padding:0px 10px;
+	opacity:0.5;
+	font-weight:bold;
+	width: 250px;
+}
+
