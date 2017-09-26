@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <a href="index.html"><div id="header"></div></a>
+        <div id="contenido">
+            <h1 id="titTecnicatura" class="titulo">Desarrollo de Software</h1>
+            <h4>1er Año</h4>
+			<ul>
+				<li>Matematica y Logica</li>
+				<li>Sistemas y Organizaciones</li>
+				<li>Arquitectura de las computadoras</li>
+				<li>Programacion I</li>
+				<li>Ingles</li>
+				<li>Lengua y Comunicacion</li>
+			</ul>
+			
+			<h4>2do Año</h4>
+			<ul>
+				<li>Sistemas Operativos</li>
+				<li>Matematica Aplicada</li>
+				<li>Modelado de Sistemas</li>	
+				<li>Programacion II</li>
+				<li>Base de Datos</li>
+				<li>Practica Profesionalizante I</li>
+			</ul>
+			
+			<h4>3er Año</h4>
+			<ul>
+				<li>Interfaz del usuario</li>
+				<li>Redes</li>
+				<li>Ingenieria de software </li>
+				<li>Programacion III</li>
+				<li>Validacion y Verificacion de programas</li>
+				<li>Etica y deontologia profesional</li>
+				<li>Practica profesionalizante II</li>
+			</ul>
+        </div>
+        <footer>
+            <p>Instituto Sup. Dr. Carlos María Carena<br>
+            <a href="mailto:icarenamclavero@hotmail.com">icarenamclavero@hotmail.com</a></p>
+        </footer>
+    </div>
+    
+    <script type="text/javascript">
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    // When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("header").style.top = "-100px";
+        document.getElementById("header").style.backgroundImage = "url('img/ExpoCarenaTextoClaro.png')";
+        document.getElementById("header").style.backgroundSize = "50%";
+        document.getElementById("header").style.backgroundPositionY = "80%";
+      } else {
+        document.getElementById("header").style.top = "0px";
+        document.getElementById("header").style.backgroundImage = "url('img/ExpoCarenaClaro.png')";
+        document.getElementById("header").style.backgroundSize = "contain";
+        document.getElementById("header").style.backgroundPositionY = "bottom";
+      }
+    }
+    </script>
+
+</body>
+</html>
+<link rel="stylesheet" href="css/estilos.css">
