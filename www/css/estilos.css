@@ -70,11 +70,18 @@ body {
 #contenidoIndex {
     position: relative;
 }
-
-#contenido {
+#titTecnicatura{
+    font-size: 30px;  
+    text-align: center;
+    color: brown;
+}
+#contenido, #izquierda, #centro, #derecha {
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'customfont';
+}
+#contenido a{
+    font-weight: bold;
 }
 
 .titulo {
