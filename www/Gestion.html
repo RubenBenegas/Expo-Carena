@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <a href="index.html"><div id="header"></div></a>
+        <div id="contenido">
+            <h1 id="titTecnicatura" class="titulo">Tècnicatura Superior en Gestiòn y Administracion de las Org.</h1>
+            <p>
+            <h4>1er Año</h4>    	
+            <ul>
+				<li>Inglès</li>
+				<li>Sociologia General</li>
+				<li>Tecnologia de la Informacion y la Comunicaciòn</li>
+				<li>Derecho</li>
+				<li>Matematica</li>
+				<li>Economia</li>
+                <li>Sistema de Informaciòn Contable</li>
+               
+			</ul>
+            
+             <h4>2do Año</h4>    	
+            <ul>
+				<li>Estadistica</li>
+				<li>Derecho Laboral</li>
+				<li>Teoria de las organizaciones y de la Administraciòn</li>
+				<li>Sistema de Informacion Contable II</li>
+				<li>Legislaciòn Tributaria</li>
+				<li>Comercializacion I</li>
+                <li>Practica Profesionalizante I</li>
+               
+			</ul>
+            
+             <h4>3er Año</h4>    	
+            <ul>
+				<li>Derecho Comercial</li>
+				<li>Administracion Financiera</li>
+				<li>Comercializacion II</li>
+				<li>Sistemas de Informacion Contable II</li>
+				<li>Administracion de Recursos Humanos</li>
+				<li>Practica Profesionalizante II</li>
+                
+               
+			</ul>
+            
+            </p>
+        </div>
+        <footer>
+            <p>Instituto Sup. Dr. Carlos María Carena<br>
+            <a href="mailto:icarenamclavero@hotmail.com">icarenamclavero@hotmail.com</a></p>
+        </footer>
+    </div>
+    
+    <script type="text/javascript">
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    // When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("header").style.top = "-100px";
+        document.getElementById("header").style.backgroundImage = "url('img/ExpoCarenaTextoClaro.png')";
+        document.getElementById("header").style.backgroundSize = "50%";
+        document.getElementById("header").style.backgroundPositionY = "80%";
+      } else {
+        document.getElementById("header").style.top = "0px";
+        document.getElementById("header").style.backgroundImage = "url('img/ExpoCarenaClaro.png')";
+        document.getElementById("header").style.backgroundSize = "contain";
+        document.getElementById("header").style.backgroundPositionY = "bottom";
+      }
+    }
+    </script>
+
+</body>
+</html>
+<link rel="stylesheet" href="css/estilos.css">
