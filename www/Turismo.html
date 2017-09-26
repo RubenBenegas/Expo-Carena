@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <a href="index.html"><div id="header"></div></a>
+        <div id="contenido">
+            <h1 id="titTecnicatura" class="titulo">Turismo</h1>
+            
+            <h2>1º año</h2>
+            <ul>
+            <li> Práctica Profesionalizante 1</li>
+            <li> Introducción al turismo</li>
+            <li> Idioma inglés 1</li>
+            <li> Idioma optativo 1</li>
+            <li> Contexto sociocultural del turismo</li>
+            <li> Comunicación</li>
+            <li> Organización y Gestión de empresas</li>
+            <li> Información turística 1</li>
+            </ul>  
+            <h2>2º año</h2>
+            <ul>
+            <li>Idioma inglés 2</li>
+            <li>Idioma optativo 2 (potugués)</li>
+            <li>Planificación turística 1</li>
+            <li>Turismo y sustentabilidad</li>
+            <li>Organización y Gestión de empresas del turismo</li>
+            <li>Información turística 2</li>
+            <li>Servicios de viajes 1</li>
+            <li>Servicios de alojamiento 1</li>
+            <li>Servicios de gastronomía 1</li>
+            <li>Práctica profesionalizante 2</li>
+            </ul>    
+            <h2>3º año</h2>
+            <ul>
+            <li>Idioma inglés 3</li>
+            <li>Planificación turística 2</li>
+            <li>Servicios de viajes 2</li>
+            <li>Servicios de alojamiento 2</li>
+            <li>Servicios de gastronomía 2</li>
+            <li>Practica profesionalizante 3</li>
+            <li>Organización de eventos</li>
+            <li>Sistemas informáticos</li>
+            <li>Comercialización de productos y servicios turísticos</li>
+            <li>Trabajo final</li>
+            </ul>
+        </div>
+        <footer>
+            <p>Instituto Sup. Dr. Carlos María Carena<br>
+            <a href="mailto:icarenamclavero@hotmail.com">icarenamclavero@hotmail.com</a></p>
+        </footer>
+    </div>
+    
+    <script type="text/javascript">
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    // When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("header").style.top = "-100px";
+        document.getElementById("header").style.backgroundImage = "url('img/ExpoCarenaTextoClaro.png')";
+        document.getElementById("header").style.backgroundSize = "50%";
+        document.getElementById("header").style.backgroundPositionY = "80%";
+      } else {
+        document.getElementById("header").style.top = "0px";
+        document.getElementById("header").style.backgroundImage = "url('img/ExpoCarenaClaro.png')";
+        document.getElementById("header").style.backgroundSize = "contain";
+        document.getElementById("header").style.backgroundPositionY = "bottom";
+      }
+    }
+    </script>
+
+</body>
+</html>
+<link rel="stylesheet" href="css/estilos.css">
