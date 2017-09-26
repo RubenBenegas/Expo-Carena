@@ -1,0 +1,211 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapperIndex {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+#wrapperIndex a {
+    text-decoration: none;
+}
+
+#wrapper {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/fondoClaro.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+#headerIndex {
+    z-index: 20; /* El más alto... */
+    position: sticky;
+    display: block;
+    top: 0px;
+    transition: top 0.3s;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    background-image: url('../img/ExpoCarena.png');
+    background-position: bottom;
+}
+
+#header {
+    z-index: 20; /* El más alto... */
+    position: sticky;
+    display: block;
+    top: 0px;
+    transition: top 0.3s;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(230,230,230);
+    background-image: url('../img/ExpoCarenaClaro.png');
+    background-position: bottom;
+}
+
+#btnCerrar {
+    z-index: 21;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    color: white;
+    left: 10px;
+    top: 10px;
+    background-image: url('../img/Cerrar.png');
+    background-size: contain;
+}
+
+#contenidoIndex {
+    position: relative;
+}
+
+#contenido {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'customfont';
+}
+
+.titulo {
+    font-size: 20px;
+}
+
+.btnTecnicatura {
+    height: 70px;
+    background-color: rgba(255,0,0,0.3);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.btnTecnicatura p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 70px;
+    text-align: center;
+    font-family: 'customfont';
+    font-size: 20px;
+    color: white;
+}
+
+.btnProfesorado {
+    height: 70px;
+    background-color: rgba(51,153,255,0.3);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.btnProfesorado p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 70px;
+    text-align: center;
+    font-family: 'customfont';
+    font-size: 20px;
+    color: white;
+}
+
+#footerIndex {
+    height: 40px;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#footerIndex p {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;    
+}
+
+footer {
+    height: 40px;
+    background-color: rgb(230,230,230);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+footer p {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;    
+}
+
+@media screen and (min-width: 480px) {
+    .btnTecnicatura {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .btnProfesorado {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    #headerIndex, #header, #footerIndex, #footer, #contenido {
+        margin-left: 50px;
+        margin-right: 50px;        
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .btnTecnicatura {
+        width: 500px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    
+    .btnProfesorado {
+        width: 500px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    
+    #headerIndex, #header, #footerIndex, #footer, #contenido {
+        width: 1024px;
+        margin-left: 10px;
+        margin-right: 10px;
+    } 
+
+    #wrapperIndex, #wrapper {
+        width: 1050px;
+        margin: auto;
+    }
+}
+
+@font-face {
+    font-family: "customfont";
+    src: url('../res/fonts/tahoma.ttf') format("truetype");   
+    }

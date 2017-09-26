@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <a href="index.html"><div id="header"></div></a>
+        <div id="contenido">
+            <h1 id="titTecnicatura" class="titulo">Desarrollo de Software</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut debitis repudiandae, labore, facilis natus mollitia odio molestias vel quia, rem possimus, expedita modi dolorum eaque sed id aliquid voluptates quae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, voluptates neque minus a inventore corrupti reprehenderit libero ipsam veniam dolor totam beatae ea incidunt earum voluptas, est quibusdam voluptatum odit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem consequatur et rem reiciendis sed ad obcaecati numquam dolore iure veniam? Error aperiam reprehenderit doloribus hic odio quo quasi iure dolorem veritatis quos repellat rerum blanditiis, excepturi magni cumque, amet aspernatur autem vel id corporis nulla pariatur necessitatibus eum eius. Voluptatibus expedita, vitae ratione reiciendis quia placeat optio perspiciatis quis repellendus tempora. Ab aliquid obcaecati natus quia officia aliquam dicta tenetur perspiciatis, numquam, laborum quae dolore illo. Non commodi rem numquam magni quaerat, aliquam labore corporis, delectus illo necessitatibus totam ratione fuga temporibus recusandae excepturi! Suscipit laboriosam dicta laudantium ab quia.</p>
+        </div>
+        <footer>
+            <p>Instituto Sup. Dr. Carlos María Carena<br>
+            <a href="mailto:icarenamclavero@hotmail.com">icarenamclavero@hotmail.com</a></p>
+        </footer>
+    </div>
+    
+    <script type="text/javascript">
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    // When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("header").style.top = "-100px";
+        document.getElementById("header").style.backgroundImage = "url('img/ExpoCarenaTextoClaro.png')";
+        document.getElementById("header").style.backgroundSize = "50%";
+        document.getElementById("header").style.backgroundPositionY = "80%";
+      } else {
+        document.getElementById("header").style.top = "0px";
+        document.getElementById("header").style.backgroundImage = "url('img/ExpoCarenaClaro.png')";
+        document.getElementById("header").style.backgroundSize = "contain";
+        document.getElementById("header").style.backgroundPositionY = "bottom";
+      }
+    }
+    </script>
+
+</body>
+</html>
+<link rel="stylesheet" href="css/estilos.css">
